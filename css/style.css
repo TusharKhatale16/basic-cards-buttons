@@ -41,6 +41,7 @@ body{
     background-color: #C9D6DF;
     padding: 3px 12px;
     text-align: center;
+}
 #btn-1{
     margin: 20px 20px;
     background-color: #493D9E;
@@ -155,4 +156,49 @@ body{
 
 #buy-now-btn:hover {
     background-color: #143D60;
+}
+.adv-card-div {
+    margin: 20px auto;
+    background-color: #C2FFC7;
+    border: 2px solid #526E48;
+    width: 200px;
+    padding: 15px;
+    border-radius: 10px;
+    text-align: center;
+    box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.2);
+}
+
+.adv-card-img {
+    
+    height: 160px;
+    border-radius: 8px;
+}
+
+.adv-card-p {
+    font-size: 16px;
+    color: #62825D;
+    font-weight: bold;
+    margin: 10px 0;
+}
+
+.adv-card-price {
+    font-size: 18px;
+    color: #9EDF9C;
+    font-weight: bold;
+    margin: 5px 0;
+}
+
+#adv-buy-now-btn {
+    background-color: #62825D;
+    color: white;
+    border: none;
+    padding: 10px 15px;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 5px;
+    transition: 0.3s;
+}
+
+#adv-buy-now-btn:hover {
+    background-color: #526E48;
 }
