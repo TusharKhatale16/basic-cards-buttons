@@ -1,0 +1,153 @@
+body{
+    background-color: #F0F5F9;
+}
+.nav-bar {
+    
+    background-color: #C9D6DF;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 10px 30px;
+    border-radius: 20px;
+    text-align: center;
+    width: 280px;
+    
+}
+.nav-item{
+    text-decoration: none;
+    color:#1E2022 ;
+    margin: 0 10px;
+    padding: 3px 12px;
+    font-size: x-large;
+    font-weight: bolder;
+}
+.nav-item:hover{
+    background-color: #F0F5F9;
+    border-radius: 15px;
+    border-bottom: 1px solid #52616B;
+    
+}
+.break-line{
+    border: 1px solid #1E2022;
+}
+#card-heading{
+
+    background-color: #C9D6DF;
+    padding: 3px 12px;
+    text-align: center;
+
+}
+#btn-1{
+    margin: 20px 20px;
+    background-color: #493D9E;
+    color: #fff;
+    padding: 5px 15px;
+    border: none;
+    cursor: pointer;
+    border-radius: 10px;
+    font-size: 20px;
+   }
+
+#btn-2{
+    margin: 20px 20px;
+    background-color: #8174A0;
+    color: #441752;
+    padding: 5px 15px;
+    border: none;
+    cursor: pointer;
+    border-radius: 10px;
+    font-size: 20px;
+}
+#btn-2:hover{
+    text-decoration: underline;
+}
+
+   .btn-3{
+    cursor: pointer;
+    margin: 20px 20px;
+    background-color: #F8F4E1;
+    padding: 2px 15px;
+    border: 3px double #543310;
+    color: #543310;
+    font-size: 20px;
+
+   }
+   .btn-4{
+    cursor: pointer;
+    margin: 20px 20px;
+    background-color: #FFDFEF;
+    padding: 2px 15px;
+    border: 2px solid #AA60C8;
+    color: #AA60C8;
+    font-size: 20px;
+
+   }
+   .btn-4:hover{
+    padding: 0 13px;
+    border: 4px double #AA60C8;
+   }
+
+   .btn-5{
+    cursor: pointer;
+    margin: 20px 20px;
+    background-color: #71BBB2;
+    padding: 5px 15px;
+    border-radius: 15px;
+    border: 2px solid #27445D;
+    color: #27445D;
+    font-size: 20px;
+   }
+   .btn-5:hover{
+    padding: 7px 17px;
+    border:none;
+   }
+
+   .basic-card-div {
+    margin: 20px auto;
+    background-color: #DDEB9D;
+    border: 2px solid #143D60;
+    width: 300px;
+    padding: 15px;
+    border-radius: 10px;
+    text-align: center;
+    box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.2);
+}
+
+.basic-card-img {
+    width: 100%;
+    height: 160px;
+    border-radius: 8px;
+}
+
+.basic-card-p {
+    font-size: 20px;
+    color: #143D60;
+    font-weight: bold;
+    margin: 10px 0;
+}
+
+.basic-card-price {
+    font-size: 18px;
+    color: #143D60;
+    font-weight: bold;
+    margin: 5px 0;
+}
+#price{
+    font-size: 25px;
+    color: #143D60;
+    font-weight: bold;
+    margin: 5px 5px;
+}
+#buy-now-btn {
+    background-color: #27667B;
+    color: white;
+    border: none;
+    padding: 10px 15px;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 5px;
+    transition: 0.3s;
+}
+
+#buy-now-btn:hover {
+    background-color: #143D60;
+}
