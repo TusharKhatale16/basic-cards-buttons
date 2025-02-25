@@ -4,9 +4,44 @@
     <title>Cards & Buttons</title>
     <link rel="stylesheet" href="css/style.css">
     <style>
-        
-        
-        
+        .product-card {
+            margin: 0 auto;
+            width: 220px;
+            height: 320px;
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+            background-color: #E5D0AC;
+            text-align: center;
+            padding: 20px;
+            transition: 0.3s;
+        }
+        .product-card:hover {
+            transform: scale(1.05);
+        }
+        .product-card img {
+            width: 120px;
+            height: 120px;
+            object-fit: cover;
+            margin-bottom: 15px;
+        }
+        .product-card h3 {
+            margin: 10px 0;
+            color: black;
+        }
+        .product-card p {
+            color: black;
+        }
+        .product-card button {
+            padding: 10px 14px;
+            background: #C14600;
+            color: white;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+        .product-card button:hover {
+            background: #A13200;
+        }      
     </style>
 </head>
 <body>
@@ -79,5 +114,11 @@
     <br>
     <hr class="break-line">
     <br>
+    <div class="product-card">
+        <img src="image/headphone-1.png" alt="headphone">
+        <h3>Smart Gadget</h3>
+        <p>High-performance and innovative features.</p>
+        <button>Buy Now</button>
+    </div>
 </body>
 </html>
